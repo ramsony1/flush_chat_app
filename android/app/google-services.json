@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400837713141",
+    "firebase_url": "https://flash-chat-3d86d.firebaseio.com",
+    "project_id": "flash-chat-3d86d",
+    "storage_bucket": "flash-chat-3d86d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400837713141:android:7f7531780e1e1aca6439bc",
+        "android_client_info": {
+          "package_name": "com.codeX.flushchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400837713141-8jghnmc7hdgn2rkdtrkt1srgnsfvcq36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgWcv_k_7SqgRT0cxXsy-5_rzKwx3jP5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400837713141-8jghnmc7hdgn2rkdtrkt1srgnsfvcq36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
