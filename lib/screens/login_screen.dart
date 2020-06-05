@@ -3,6 +3,7 @@ import 'package:flushchatapp/constants.dart';
 import 'package:flushchatapp/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/services.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -85,6 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     });
                   } catch (e) {
                     print(e);
+                    Navigator.pushNamed(context, LoginScreen.id);
                   }
                 },
               ),
